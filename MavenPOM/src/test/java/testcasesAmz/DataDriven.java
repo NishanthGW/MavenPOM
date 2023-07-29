@@ -110,6 +110,7 @@ public class DataDriven {
 	@AfterClass
 	public void end() {
 		driver.close();
+		System.out.println("Driver Closed");
 	}
 
 }
